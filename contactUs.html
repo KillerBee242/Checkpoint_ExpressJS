@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us</title>
+</head>
+
+<body class="bg-[#102a50]">
+
+    <header class="text-white mx-12 my-8">
+        <nav class="flex justify-between">
+            <a href="/homePage.html" class="font-medium text-2xl">Gomyfile</a>
+            <ul class="flex items-center justify-center font-light">
+                <li class="pr-8 hover:underline"><a href="/">Home</a></li>
+                <li class="pr-8 hover:underline"><a href="/services">Our Services</a></li>
+                <li class="hover:underline"><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flex flex-col items-center justify-center text-white mt-10">
+        <div class="mb-4 text-3xl font-medium text-center">Contact Us</div>
+        <div class="my-4 font-extralight text-center">
+            Have questions or need assistance? Feel free to reach out to us. You can contact
+            us via email, phone, or visit us at our office.
+        </div>
+
+        <form class="w-full max-w-lg bg-[#163768] text-white p-8 rounded shadow-lg mt-5">
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="name">Name</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-sm font-bold mb-2" for="email">Email</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+            </div>
+            <div class="mb-8">
+                <label class="block text-sm font-bold mb-2" for="message">Message</label>
+                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your Message" rows="4"></textarea>
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="bg-sky-500 hover:bg-sky-400 text-white font-bold py-2 px-8 rounded focus:outline-none focus:shadow-outline" type="button">Send</button>
+            </div>
+        </form>
+    </section>
+    
+</body>
+
+<footer class="bg-[#0a1a31] text-white fixed bottom-0 w-full font-extralight text-xs px-10 py-8 flex flex-col justify-center">
+    <hr class="mb-4">
+    <div class="flex justify-between">
+        <div>&copy Gomyfile 2025. All rights reserved. Powered by Gomycode Team.</div>
+        <div class="flex">
+            <a href="#" class="pr-4">FAQ</a>
+            <a href="#" class="pr-4">Terms of use</a>
+            <a href="#">Help and assistance</a>
+        </div>
+    </div>
+</footer>
+
+</html>
