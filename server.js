@@ -9,10 +9,10 @@ function workingHours(req, res, next) {
     const hours = now.getHours();
     const day = now.getDay();
 
-    if (day >= 1 && day <= 6 && hours >= 6 && hours < 17) {
+    if (day >= 1 && day <= 5 && hours >= 9 && hours < 17) {
         next(); // next route in work hours
     } else {
-        res.send('Sorry, the web application is only available Monday to Friday, from 9 to 17.')
+        res.send('Sorry, the web application is only available Monday to Friday, from 09h00 to 17h00.')
     }
 }
 
